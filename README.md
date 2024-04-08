@@ -10,7 +10,6 @@ npm i hexo-algoliasearch --save
 
 npm i hexo-symbols-count-time --save
 
-------
 # 一键部署到github
 npm install hexo-deployer-git --save
 
