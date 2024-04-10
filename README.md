@@ -28,6 +28,8 @@ npm install hexo-deployer-git --save
 
 # git 常用指令
 ```
+git clone https://github.com/Fukamisora/GBA_Website.git            # 克隆本项目
+
 git fetch origin main                      # 将 main 分支拉取到本地（不合并）
 git pull origin main                       # 拉取 main 分支
 git pull origin main : local_branch        # 将 main 分支 拉取并合并到 local_branch
