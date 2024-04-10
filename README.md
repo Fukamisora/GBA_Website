@@ -9,6 +9,8 @@
 # 前置
 ## 插件
 ```
+npm i hexo-cli -g
+
 npm un hexo-renderer-marked --save
 
 npm i hexo-renderer-multi-markdown-it --save
