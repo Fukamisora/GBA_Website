@@ -4,23 +4,32 @@
 + Github Page 部署
 + [Github 部署地址](https://github.com/Fukamisora/Fukamisora.github.io)
 + [示例网页](https://fukamisora.github.io/)
-
 ------
-# 前置
-## 插件
+# 前置要求
++ node.js
++ git
+
+# 使用方法
+
+## 方法一
+1. 新建文件夹作为项目根目录，并在项目根目录下右键打开 bash 克隆整个项目
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-npm i hexo-cli -g
+git clone https://github.com/Fukamisora/GBA_Website.git
+```
 
-=======
->>>>>>> 3dacf5e (test)
-=======
-=======
-npm i hexo-cli -g
+## 方法二 （推荐）
+1. 安装 hexo
+```
+npm install hexo-cli -g
+```
 
->>>>>>> 5fa5e22a7c77b812e501af9deb9e65236c82391c
->>>>>>> dbbfd98d1dc9b31b46c218bc8251d0204379a6cc
+2. 克隆主题
+```
+git clone https://github.com/Fukamisora/GBA_Website.git .themes/shoka
+```
+
+3. 安装其他插件
+```
 npm un hexo-renderer-marked --save
 
 npm i hexo-renderer-multi-markdown-it --save
@@ -31,45 +40,36 @@ npm i hexo-algoliasearch --save
 
 npm i hexo-symbols-count-time --save
 ```
-## 一键部署到github（选）
-```
-npm install hexo-deployer-git --save
-```
 
-# git 常用指令
+> Hexo 框架使用方法详细参考 [官方说明文档](https://hexo.io/zh-cn/docs/)
+
+------
+# 附录
+## git 常用指令
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-git clone https://github.com/Fukamisora/GBA_Website.git            # 克隆本项目
-
-=======
->>>>>>> 3dacf5e (test)
-=======
-=======
-git clone https://github.com/Fukamisora/GBA_Website.git            # 克隆本项目
-
->>>>>>> 5fa5e22a7c77b812e501af9deb9e65236c82391c
->>>>>>> dbbfd98d1dc9b31b46c218bc8251d0204379a6cc
-git fetch origin main                      # 将 main 分支拉取到本地（不合并）
-git pull origin main                       # 拉取 main 分支
-git pull origin main : local_branch        # 将 main 分支 拉取并合并到 local_branch
+git clone https://github.com/Username/Repositories.git            # 克隆项目
 
 git init                                   # 初始化仓库
 git add .                                  # 添加所有文件到缓存
 git status                                 # 查看仓库状态
-git commit -m "messages"                   # 批量注释修改文件
+git commit -m "messages"                   # 注释修改文件
 git push origin main                       # push到 main 分支
 
 git branch                                 # 查看当前分支
-git branch dev                             # 创建 dev 分支
+git branch branch_name                     # 创建 branch_name 分支
 
-git checkout dev                           # 切换到 dev 分支
-git switch dev                             # 切换到 dev 分支
+git checkout branch_name                   # 切换到 branch_name 分支
+git switch branch_name                     # 切换到 branch_name 分支
 
-git checkout -b dev                        # 创建 dev 分支并切换到 dev 分支
-git switch -c dev                          # 创建 dev 分支并切换到 dev 分支
+git checkout -b branch_name                # 创建 branch_name 分支并切换到 branch_name 分支
+git switch -c branch_name                  # 创建 branch_name 分支并切换到 branch_name 分支
 
-git merge dev                              # 将 dev 分支合并到当前分支
-git branch -d dev                          # 删除 dev 分支
+git push origin branch_name                # 将分支 branch_name 上传
+
+git merge branch_name                      # 将 branch_name 分支合并到当前分支
+git branch -d branch_name                  # 删除 branch_name 分支
+
+git fetch origin main                      # 将 main 分支拉取到本地（不合并）
+git pull origin main                       # 拉取 main 分支
+git pull origin main : local_branch        # 将 main 分支 拉取并合并到 local_branch
 ```
-------
