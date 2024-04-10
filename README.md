@@ -47,6 +47,8 @@ git status                                 # 查看仓库状态
 git commit -m "messages"                   # 注释修改文件
 git push origin main                       # push到 main 分支
 
+git remote -v                              # 查看远程库信息
+
 git branch                                 # 查看当前分支
 git branch branch_name                     # 创建 branch_name 分支
 
