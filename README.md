@@ -10,22 +10,14 @@
 + git
 
 # 使用方法
-
-## 方法一
-1. 新建文件夹作为项目根目录，并在项目根目录下右键打开 bash 克隆整个项目
-```
-git clone https://github.com/Fukamisora/GBA_Website.git
-```
-
-## 方法二 （推荐）
 1. 安装 hexo
 ```
 npm install hexo-cli -g
 ```
 
-2. 克隆主题
+2. 克隆项目
 ```
-git clone https://github.com/Fukamisora/GBA_Website.git .themes/shoka
+git clone https://github.com/Fukamisora/GBA_Website.git
 ```
 
 3. 安装其他插件
