@@ -10,10 +10,17 @@
 ## 插件
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 npm i hexo-cli -g
 
 =======
 >>>>>>> 3dacf5e (test)
+=======
+=======
+npm i hexo-cli -g
+
+>>>>>>> 5fa5e22a7c77b812e501af9deb9e65236c82391c
+>>>>>>> dbbfd98d1dc9b31b46c218bc8251d0204379a6cc
 npm un hexo-renderer-marked --save
 
 npm i hexo-renderer-multi-markdown-it --save
@@ -32,10 +39,17 @@ npm install hexo-deployer-git --save
 # git 常用指令
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 git clone https://github.com/Fukamisora/GBA_Website.git            # 克隆本项目
 
 =======
 >>>>>>> 3dacf5e (test)
+=======
+=======
+git clone https://github.com/Fukamisora/GBA_Website.git            # 克隆本项目
+
+>>>>>>> 5fa5e22a7c77b812e501af9deb9e65236c82391c
+>>>>>>> dbbfd98d1dc9b31b46c218bc8251d0204379a6cc
 git fetch origin main                      # 将 main 分支拉取到本地（不合并）
 git pull origin main                       # 拉取 main 分支
 git pull origin main : local_branch        # 将 main 分支 拉取并合并到 local_branch
