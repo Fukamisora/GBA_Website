@@ -14,7 +14,11 @@
 <div class="rpost pjax">
   <h2>{{__('index.random_posts')}}</h2>
   <ul>
+<<<<<<< HEAD
     {%- set posts = site.posts.shuffle().limit(10).toArray() %}
+=======
+    {%- set posts = site.posts.shuffle().limit(5).toArray() %}
+>>>>>>> dev
     {%- for item in posts %}
       {{field(item)}}
     {%- endfor %}
