@@ -11,7 +11,7 @@ date: 2024-04-09
 update: 
 tags: 电视台
 categories: 广州
-cover: ../assert/3.webp
+cover: ../asset/3.webp
 sticky:
 audio:
 description:

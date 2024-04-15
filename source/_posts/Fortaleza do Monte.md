@@ -11,7 +11,7 @@ date: 2024-04-06
 update:
 tags: 世界遗址
 categories: 澳门
-cover: ../assert/4.jpg
+cover: ../asset/4.jpg
 sticky:
 audio:
 description:
