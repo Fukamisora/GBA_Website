@@ -47,8 +47,8 @@
         {{ partial('_partials/header.njk', {}, {cache: true}) }}
       </div>
       <div id="imgs" class="pjax">
-      {%- set covers = _cover(page, 6) %}
-      {%- if covers.length == 6 %}
+      {%- set covers = _cover(page, 5) %}
+      {%- if covers.length == 5 %}
         <ul>
           {%- for image in covers %}
           <li class="item" data-background-image="{{ image }}"></li>
