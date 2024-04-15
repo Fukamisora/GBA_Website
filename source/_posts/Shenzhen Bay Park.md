@@ -11,7 +11,7 @@ date: 2024-04-10
 update:
 tags: 城市公园
 categories: 深圳
-cover: ../assert/5.jpg
+cover: ../asset/5.jpg
 sticky:
 audio:
 description:

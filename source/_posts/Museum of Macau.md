@@ -11,7 +11,7 @@ date: 2024-04-10
 update:
 tags: 博物馆
 categories: 澳门
-cover: ../assert/2.jpg
+cover: ../asset/2.jpg
 sticky:
 audio:
 description:

@@ -11,7 +11,7 @@ date: 2024-04-02
 update:
 tags: 野生动物园
 categories: 深圳
-cover: ../assert/6.jpg
+cover: ../asset/6.jpg
 sticky:
 audio:
 description:
