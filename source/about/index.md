@@ -4,9 +4,7 @@ comments: true
 copyright: false
 valine:
   placeholder: |-
-    1. 提问前请先仔细阅读本文档⚡
-    2. 页面显示问题💥，请提供控制台截图📸或者您的测试网址
-    3. 其他任何报错💣，请提供详细描述和截图📸，祝食用愉快💪
+    评价旅游景点，分享旅游攻略，记录旅游足迹。
 date: 2024-01-02 00:58:47
 update:
 cover:
