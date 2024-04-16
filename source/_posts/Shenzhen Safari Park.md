@@ -3,12 +3,13 @@ title: 深圳市野生公园
 math: true
 comments: true
 valine:
-  placeholder: |-
-    评价旅游景点，分享旅游攻略，记录旅游足迹。
+  placeholder: 评价旅游景点，分享旅游攻略，记录旅游足迹。
 date: 2024-04-02
 update:
-tags: 野生动物园
-categories: 深圳
+tags: 
+ - 野生动物园
+categories: 
+ - [深圳]
 cover: ../asset/6.jpg
 sticky:
 audio:

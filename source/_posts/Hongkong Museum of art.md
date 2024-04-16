@@ -3,12 +3,13 @@ title: 香港艺术馆
 math: true
 comments: true
 valine:
-  placeholder: |-
-    评价旅游景点，分享旅游攻略，记录旅游足迹。
+  placeholder: 评价旅游景点，分享旅游攻略，记录旅游足迹。
 date: 2024-04-15 
 update:
-tags: 博物馆
-categories: 香港
+tags: 
+ - 博物馆
+categories: 
+ - [香港]
 cover: ../asset/9.jpeg
 sticky:
 audio:

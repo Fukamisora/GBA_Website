@@ -172,7 +172,7 @@ algolia:
   apiKey: 01bc8452d4f7cd1cbb4e0c3379fd8e51 #Your apiKey
   adminApiKey: 431f7fe598b471aa772266d7354bba4d #Your adminApiKey
   chunkSize: 5000
-  indexName: hexo #"shoka"
+  indexName: GBA #"shoka"
   fields:
     - title #必须配置
     - path #必须配置

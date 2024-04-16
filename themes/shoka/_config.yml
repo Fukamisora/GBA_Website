@@ -229,8 +229,13 @@ image_server: # "https://acg.xydwz.cn/api/api.php"
 # Algolia Search
 # For more information: https://www.algolia.com
 search:
+  enable: true
   hits:
     per_page: 10
+  labels:
+  input_planceholde: Search for Posts
+  hits_empty: "我们没有找到任何搜索结果: ${query}"
+  hits_states: "找到${hits}条结果（用时${time} ms）"
 
 # Dependencies: https://github.com/amehime/hexo-renderer-multi-markdown-it
 pangu: false
