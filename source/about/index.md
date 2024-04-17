@@ -3,12 +3,11 @@ title: 关于
 comments: true
 copyright: false
 valine:
-  placeholder: |-
-    评价旅游景点，分享旅游攻略，记录旅游足迹。
+  placeholder: 评价旅游景点，分享旅游攻略，记录旅游足迹。
 date: 2024-01-02 00:58:47
 update:
 cover:
-keywords:
+keywords: 关于
 audio:
 ---
 

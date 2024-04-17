@@ -3,12 +3,13 @@ title: 大炮台
 math: true
 comments: true
 valine:
-  placeholder: |-
-    评价旅游景点，分享旅游攻略，记录旅游足迹。
+  placeholder: 评价旅游景点，分享旅游攻略，记录旅游足迹。
 date: 2024-04-06
 update:
-tags: 世界遗址
-categories: 澳门
+tags: 
+ - 世界遗址
+categories: 
+ - [澳门]
 cover: ../asset/4.jpg
 sticky:
 audio:

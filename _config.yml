@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-# url:
+# url: https://github.com/fukamisora/fukamisora.github.io/ # https://yourdomain.com
 permalink: :title/ # :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -172,7 +172,7 @@ algolia:
   apiKey: 01bc8452d4f7cd1cbb4e0c3379fd8e51 #Your apiKey
   adminApiKey: 431f7fe598b471aa772266d7354bba4d #Your adminApiKey
   chunkSize: 5000
-  indexName: hexo #"shoka"
+  indexName: GBA #"shoka"
   fields:
     - title #必须配置
     - path #必须配置
