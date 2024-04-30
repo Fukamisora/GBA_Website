@@ -90,21 +90,13 @@ iconfont: "1832207_igi8uaupcus"
 
 menu:
   home: / || home
-<<<<<<< HEAD
-  # about: /about/ || user
-=======
-  about: /about/ || user
-<<<<<<< HEAD
->>>>>>> dev
-  # posts:
-  #   default: / || feather
-=======
+
   posts:
     default: / || feather
->>>>>>> dev
-  #   archives: /archives/ || list-alt
+    # archives: /archives/ || list-alt
     categories: /categories/ || th
     tags: /tags/ || tags
+  about: /about/ || user
   # friends: /friends/ || heart
   # links: /links/ || magic
 
